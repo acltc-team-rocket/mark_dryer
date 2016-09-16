@@ -1,5 +1,9 @@
 require "mark_dryer/version"
 
 module MarkDryer
-  # Your code goes here...
+  class Hand
+    def self.dry
+      `say oooooooooooooooooooooooooooooo oooooooooooooooooooooooooooooooooooo`
+    end
+  end
 end
